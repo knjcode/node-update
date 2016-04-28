@@ -7,6 +7,11 @@ Testing environment of Node.js applications.
 ```
 $ git clone https://github.com/knjcode/node-update
 
+# If you want to use Current
+$ git checkout current
+$ make
+$ docker run --rm -it -v $PWD:/app knjcode/node-update:current
+
 # If you want to use Stable
 $ git checkout stable
 $ make
